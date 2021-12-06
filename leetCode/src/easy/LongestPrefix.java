@@ -3,6 +3,10 @@ package easy;
 import java.util.LinkedList;
 
 public class LongestPrefix {
+    /*
+    Input: strs = ["flower","flow","flight"]
+    Output: "fl"
+    */
 
     public static String longestCommonPrefix(String[] strs) {
         //建立一個buffer存char

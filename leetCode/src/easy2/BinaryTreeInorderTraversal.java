@@ -28,7 +28,7 @@ public class BinaryTreeInorderTraversal {
             inOrderTraversal(root.right,res);
         }
     }
-    public List<Integer> inorderTraversalIter(TreeNode root) {
+    public List<Integer> inorderTraversalIter2(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
 
         Stack<TreeNode> stack = new Stack<TreeNode>();
